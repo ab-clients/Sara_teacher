@@ -85,13 +85,14 @@ export default function Home() {
 
       <main id="main-content">
         {/* Hero Section */}
-        <section className="relative h-screen flex items-center">
+        <section className="relative h-96 sm:h-120 lg:h-screen flex items-center">
           <Image
             src="/hero-sara.jpg"
             alt="Sara Abdelmeguid teaching in a classroom"
             fill
             className="object-cover"
             priority
+            quality={100}
           />
           {/* Dark overlay to improve text contrast; pointer-events-none keeps it non-interactive */}
           <div className="absolute inset-0 bg-zinc-900/60 pointer-events-none"></div>
