@@ -32,7 +32,7 @@ export default function Contact() {
           </p>
           <div className="flex justify-center items-center gap-6 mb-8">
             <a
-              href="mailto:sara@example.com"
+              href="mailto:me@saraabdelmeguid.com"
               className="inline-flex items-center px-6 py-3 bg-indigo-700 text-white font-medium rounded-md hover:bg-indigo-800 transition-colors focus:outline-none focus:ring-2 focus:ring-amber-500"
             >
               Email Sara
