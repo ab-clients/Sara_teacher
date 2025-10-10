@@ -8,7 +8,7 @@ const NAV_ITEMS = [
   { href: "#cv", label: "CV/Resume" },
   { href: "#teaching", label: "Teaching" },
   { href: "#portfolio", label: "Portfolio" },
-  { href: "#testimonials", label: "Testimonials" },
+  // { href: "#testimonials", label: "Testimonials" },
   // { href: "#blog", label: "Blog" },
 ];
 

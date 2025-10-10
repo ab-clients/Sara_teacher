@@ -31,7 +31,7 @@ export default function Hero() {
 
           <div className="flex flex-col sm:flex-row gap-4">
             <a
-              href="/Sara-Abdelmeguid-CV.pdf"
+              href="/sara-abdelmeguid-resume.pdf"
               className="inline-flex items-center justify-center px-6 py-3 bg-amber-500 text-white font-medium rounded-md hover:bg-amber-600 transition-colors focus:outline-none focus:ring-2 focus:ring-white"
             >
               Download CV (PDF)

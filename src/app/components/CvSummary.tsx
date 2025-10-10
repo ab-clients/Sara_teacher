@@ -9,58 +9,93 @@ export default function CvSummary() {
           CV Summary
         </h2>
         <div className="grid md:grid-cols-2 gap-8 mb-8">
-          <div>
-            <h3 className="text-xl font-semibold text-indigo-700 mb-4">
-              Experience
-            </h3>
-            <ul className="space-y-3 text-gray-700">
-              <li>
-                • Senior English Teacher at International Language Institute
-                (2020-present)
-              </li>
-              <li>
-                • IELTS Preparation Specialist at Elite Education Center
-                (2018-2020)
-              </li>
-              <li>
-                • ESL Instructor at Brisbane Community College (2016-2018)
-              </li>
-            </ul>
+          <div className="flex flex-col gap-8">
+            <section>
+              <h3 className="text-xl font-semibold text-indigo-700 mb-4">
+                Experience
+              </h3>
+              <ul className="space-y-3 text-gray-700 list-disc pl-4">
+                <li>
+                  Centre Coordinator / Nominated Supervisor,{" "}
+                  <span className="text-gray-500 italic text-sm">
+                    Jan 2017 - Aug 2024
+                  </span>
+                </li>
+                <li>
+                  English teacher,{" "}
+                  <span className="text-gray-500 italic text-sm">
+                    (Sep 2007 - Nov 2016)
+                  </span>
+                </li>
+                <li>
+                  Lower grades coordinator & <br />
+                  English language class teacher,{" "}
+                  <span className="text-gray-500 italic text-sm">
+                    (Sep 2005 - Aug 2007)
+                  </span>
+                </li>
+              </ul>
+            </section>
+            <section>
+              <h3 className="text-xl font-semibold text-indigo-700 mb-4">
+                Skills
+              </h3>
+              <ul className="space-y-3 text-gray-700 list-disc pl-4">
+                <li>Curriculum Development &amp; Assessment</li>
+                <li>Digital Learning Technologies</li>
+                <li>Cross-cultural Communication</li>
+              </ul>
+            </section>
           </div>
           <div>
-            <h3 className="text-xl font-semibold text-indigo-700 mb-4">
-              Education
-            </h3>
-            <ul className="space-y-3 text-gray-700">
-              <li>• Master of Applied Linguistics, University of Queensland</li>
-              <li>• Bachelor of Education (TESOL), Griffith University</li>
-              <li>• CELTA Certification, Cambridge Assessment English</li>
-            </ul>
-          </div>
-          <div>
-            <h3 className="text-xl font-semibold text-indigo-700 mb-4">
-              Certifications
-            </h3>
-            <ul className="space-y-3 text-gray-700">
-              <li>• TESOL Certificate (120 hours)</li>
-              <li>• IELTS Examiner Certification</li>
-              <li>• Google Certified Educator Level 2</li>
-            </ul>
-          </div>
-          <div>
-            <h3 className="text-xl font-semibold text-indigo-700 mb-4">
-              Skills
-            </h3>
-            <ul className="space-y-3 text-gray-700">
-              <li>• Curriculum Development &amp; Assessment</li>
-              <li>• Digital Learning Technologies</li>
-              <li>• Cross-cultural Communication</li>
-            </ul>
+            <section>
+              <h3 className="text-xl font-semibold text-indigo-700 mb-4">
+                Education & Certifications
+              </h3>
+              <ul className="space-y-3 text-gray-700 list-disc pl-4">
+                <li>
+                  <strong>CELTA:</strong> Certificate in English Language
+                  Teaching to Adults, Cambridge,{" "}
+                  <span className="text-gray-500 italic text-sm">
+                    Sydney, 2015
+                  </span>
+                </li>
+                <li>
+                  <strong>TEFL:</strong> Teaching English as a Foreign Language,
+                  TEFL International,{" "}
+                  <span className="text-gray-500 italic text-sm">
+                    Alexandria, 2009
+                  </span>
+                </li>
+                <li>
+                  <strong>Early Childhood Diploma:</strong> Australian early
+                  years diploma
+                </li>
+                <li>
+                  <strong>Educational Diploma:</strong> Faculty of Education,
+                  Alexandria University,{" "}
+                  <span className="text-gray-500 italic text-sm">2013</span>
+                </li>
+                <li>
+                  <strong>BA in English:</strong> Language & Translation,
+                  Alexandria University,{" "}
+                  <span className="text-gray-500 italic text-sm">
+                    2004-2005
+                  </span>
+                </li>
+                <li>
+                  Translation courses — consecutive & simultaneous,{" "}
+                  <span className="text-gray-500 italic text-sm">
+                    Alexandria University
+                  </span>
+                </li>
+              </ul>
+            </section>
           </div>
         </div>
         <div className="text-center">
           <a
-            href="/Sara-Abdelmeguid-CV.pdf"
+            href="/sara-abdelmeguid-resume.pdf"
             className="inline-flex items-center px-6 py-3 bg-indigo-700 text-white font-medium rounded-md hover:bg-indigo-800 transition-colors focus:outline-none focus:ring-2 focus:ring-amber-500"
           >
             Download Full CV (PDF)

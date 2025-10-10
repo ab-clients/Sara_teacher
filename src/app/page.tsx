@@ -1,13 +1,11 @@
+import About from "./components/About";
+import Contact from "./components/Contact";
+import CvSummary from "./components/CvSummary";
+import Footer from "./components/Footer";
 import Header from "./components/Header";
 import Hero from "./components/Hero";
-import About from "./components/About";
-import CvSummary from "./components/CvSummary";
-import Teaching from "./components/Teaching";
 import Portfolio from "./components/Portfolio";
-import Testimonials from "./components/Testimonials";
-import BlogPreview from "./components/BlogPreview";
-import Contact from "./components/Contact";
-import Footer from "./components/Footer";
+import Teaching from "./components/Teaching";
 
 export default function Home() {
   return (
@@ -27,8 +25,8 @@ export default function Home() {
         <CvSummary />
         <Teaching />
         <Portfolio />
-        <Testimonials />
-        <BlogPreview />
+        {/* <Testimonials />
+        <BlogPreview /> */}
         <Contact />
       </main>
 
