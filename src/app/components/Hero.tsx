@@ -16,7 +16,7 @@ export default function Hero() {
 
       {/* Dark overlay to improve text contrast; pointer-events-none keeps it non-interactive */}
       <div
-        className="absolute inset-0 bg-black/70 pointer-events-none"
+        className="absolute inset-0 bg-black/50 pointer-events-none"
         aria-hidden="true"
       ></div>
 
@@ -24,7 +24,7 @@ export default function Hero() {
         <div className="max-w-lg">
           <h1
             id="hero-heading"
-            className="text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-4"
+            className="text-4xl sm:text-5xl lg:text-6xl font-bold text-sky-100 mb-4 shadow-md"
           >
             Sara Abdelmeguid
           </h1>
@@ -32,13 +32,13 @@ export default function Hero() {
           <div className="flex flex-col sm:flex-row gap-4">
             <a
               href="/sara-abdelmeguid-resume.pdf"
-              className="inline-flex items-center justify-center px-6 py-3 bg-amber-500 text-white font-medium rounded-md hover:bg-amber-600 transition-colors focus:outline-none focus:ring-2 focus:ring-white"
+              className="inline-flex items-center justify-center px-6 py-3 bg-sky-600 text-white font-medium rounded-md hover:bg-amber-600 transition-colors focus:outline-none focus:ring-2 focus:ring-white"
             >
               Download CV (PDF)
             </a>
             <a
               href="#contact"
-              className="inline-flex items-center justify-center px-6 py-3 border-2 border-white text-white font-medium rounded-md hover:bg-white hover:text-gray-900 transition-colors focus:outline-none focus:ring-2 focus:ring-amber-500"
+              className="inline-flex items-center justify-center px-6 py-3 border-2 border-sky-600 text-sky-200 font-medium rounded-md hover:bg-white hover:text-gray-900 transition-colors focus:outline-none focus:ring-2 focus:ring-amber-500"
             >
               Contact
             </a>

@@ -14,15 +14,22 @@ export default function About() {
         </h2>
         <div className="max-w-4xl mx-auto">
           <p className="text-lg text-gray-700 mb-8 text-center">
-            I&apos;m an experienced English language teacher from Australia with
-            a passion for helping students achieve their communication goals.
-            With years of experience in diverse educational settings, I
-            specialize in creating engaging, personalized learning experiences
-            that build confidence and fluency in English.
+            Hi, I&apos;m Sara — an English tutor with 15+ years of teaching
+            experience across Egypt, the UAE, and Australia. Being
+            Australian-Egyptian has given me a broader understanding of how
+            students from different backgrounds learn and express themselves. I
+            mainly focus on IGCSE English, but I&apos;ve also worked with the
+            American, Canadian, and Australian curriculums, which helps me adapt
+            my lessons to each learner&apos;s needs. With CELTA and TEFL
+            certifications, I aim to make learning English an enjoyable and
+            supportive experience where students feel encouraged to grow, gain
+            confidence, and reach their goals at their own pace.
           </p>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
             <div className="p-4">
-              <div className="text-amber-500 font-semibold mb-2">ESL/ELT</div>
+              <div className="text-amber-500 font-semibold mb-2">
+                CELTA/TEFL
+              </div>
               <div className="text-sm text-gray-600">Expert instruction</div>
             </div>
             <div className="p-4">
